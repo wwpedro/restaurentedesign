@@ -1,0 +1,260 @@
+@import "config.css";
+
+header{
+    height: 680px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.head_body{
+    position: relative;
+    height: 680px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: url("https://img.freepik.com/fotos-premium/restaurante_23-2148014999.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head_left{
+    position: relative;
+    width: 50%;
+    font-family: "PosteramaThin";
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head_left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+  
+.head_left li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.head_left a:hover {
+    display: block;
+    color: rgb(134, 134, 134);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.head_rigth{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "PosteramaThin";
+    color: white;
+    font-size: 145px;
+    font-weight: normal;
+}
+
+
+
+
+
+.sessao1{
+    height: 940px;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sessao1_part1{
+    font-size: 64px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "PosteramaLigth";
+}
+.sessao1_part2{
+    background-color: rgb(235, 235, 235);
+    width: 560px;
+    height: 377px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 100px;
+    font-size: 20px;
+}
+.sessao1_part3{
+    background-image: url("https://st.depositphotos.com/1014889/2123/i/600/depositphotos_21237673-stock-photo-pasta-with-tomato-sauce.jpg");
+    width: 423px;
+    height: 637px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.sessao2{
+    height: 834px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://st3.depositphotos.com/9880800/18500/i/600/depositphotos_185007696-stock-photo-view-stylish-empty-cafe-arranged.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.sessao2_banner{
+    background-image: url("https://st4.depositphotos.com/1875497/20057/i/600/depositphotos_200572598-stock-photo-abstract-blur-defocused-restaurant-coffee.jpg");
+    height: 834px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .5;
+    position: relative;
+}*/
+.sessao2_part1{
+    font-family: "PosteramaLigth";
+    font-size: 65px;
+    margin-bottom: 60px;
+    color: aliceblue;
+}
+.sessao2_part2{
+    font-family: "PosteramaText";
+    padding-inline: 100px;
+    margin-inline: 60px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+
+.sessao3{
+    height: 1100px;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sessao3_part1{
+    font-family: "PosteramaLigth";
+    font-size: 65px;
+    margin-bottom: 100px;
+}
+.sessao3_part2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sessao3_elento{
+    height: 434px;
+    width: 344px;
+    background-color: aqua;
+    margin-inline: 50px;
+}
+.sessao3_elento img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+
+
+.sessao4{
+    height: 802px;
+    background-color: rgb(244, 244, 244);
+}
+.sessao4_conteudo{
+    height: 664px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+.sessao4_part1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+}
+.sessao4_titulo{
+    font-family: "PosteramaThin";
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.sessao4_texto{
+    font-size: 20px;
+    font-weight: normal;
+    scroll-padding-inline: 50px;
+}
+.sessao4_part2{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+.sessao4_imagem{
+    height: 802px;
+    width: 508px;
+    background-image: url("https://st3.depositphotos.com/9880800/18500/i/600/depositphotos_185007302-stock-photo-view-stylish-empty-cafe-arranged.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.sessao5{
+    height: 900px;
+    background-color: rgb(244, 244, 244);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sessao5_part1{
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sessao5_titulo{
+    font-family: "PosteramaLigth";
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.sessao5_texto{
+    font-size: 25px;
+    font-weight: normal;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+.sessao5_part2{
+    padding-top: 300px;
+    justify-content: center;
+    display: flex;
+    margin-top: -100px;
+    
+}
+.sessao5_part2 img{
+    width: 70px;
+    padding-inline: 20px;
+}
+.sessao5_part3{
+    padding-top: 50px;
+    text-align: center;
+}
