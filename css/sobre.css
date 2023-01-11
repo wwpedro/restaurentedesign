@@ -17,7 +17,7 @@
 .head_sobre_part2{
     width: 50%;
     height: 710px;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -51,7 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 .sobre_sessao1_img{
     height: 900px;
@@ -68,6 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
 }
 .sobre_sessao1_conteudo{
     height: 900px;
@@ -76,11 +77,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    object-fit: cover
 }
 
 .sobre_sessao1_titulo{
     font-size: 3rem;
-    background-color: aqua;
     margin-right: 30%;
     margin-top: 40%;
     margin-left: 10%;
@@ -90,7 +91,6 @@
     flex-direction: column;
 }
 .sobre_sessao1_texto{
-    background-color: rgb(16, 45, 45);
     font-size: 1.3rem;
     margin-top: 10%;
     margin-right: 30%;
@@ -154,7 +154,7 @@ span{
     height: 100%;
     flex-direction: row;
     display: flex;
-    background-color: rgb(164, 87, 147);
+    background-color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
 }
@@ -163,15 +163,16 @@ span{
     height: 100%;
     flex-direction: row;
     display: flex;
-    background-color: rgb(123, 123, 160);
+    background-color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
 }
 .fotos_img{
     margin: 10px;
     width: 40%;
     height: 95%;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 .sobre_sessao3{
