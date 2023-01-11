@@ -1,0 +1,203 @@
+.head_sobre_part1{
+    width: 50%;
+    height: 791px;
+    background-color: black;
+    display: block;
+    flex-direction: column;
+}
+.head_sobre_titulo{
+    align-items: center;
+    display: flex;
+    color: white;
+    height: 84%;
+    justify-content: center;
+    font-family: "PosteramaThin";
+    font-size: 145px;
+}
+.head_sobre_part2{
+    width: 50%;
+    height: 791px;
+    background-color: rgb(209, 209, 209);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "PosteramaThin";
+    font-size: 50px;
+}
+
+.head_sobre_part2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+  
+.head_sobre_part2 li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.head_sobre_part2 a:hover {
+    display: block;
+    color: rgb(134, 134, 134);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+.sobre_sessao1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.sobre_sessao1_img{
+    height: 900px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre_sessao1_img img{
+    margin-left: 20%;
+    margin-right: 5%;
+    height: 700px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre_sessao1_conteudo{
+    height: 900px;
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre_sessao1_titulo{
+    font-size: 3rem;
+    background-color: aqua;
+    margin-right: 30%;
+    margin-top: 40%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sobre_sessao1_texto{
+    background-color: rgb(16, 45, 45);
+    font-size: 1.3rem;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.sobre_sessao2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.sobre_sessao2_titulo{
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "PosteramaThin";
+    font-size: 50px;
+}
+
+span{
+    display:block;
+    width:50%; /*or whatever width you want the effect of <hr>*/
+    border-top: 1px solid #ccc;
+}
+
+.sobre_sessao2_texto{
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    padding-inline: 20%;
+    margin-top: 2%;
+}
+
+.sobre_sessao2_fotos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sessao2_fotos1{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(164, 87, 147);
+    align-items: center;
+    justify-content: center;
+}
+.sessao2_fotos2{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(123, 123, 160);
+    align-items: center;
+    justify-content: center;
+}
+.fotos_img{
+    margin: 10px;
+    width: 40%;
+    height: 95%;
+    background-color: blue;
+}
+
+.sobre_sessao3{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre_sessao3_titulo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "PosteramaThin";
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+.sobre_sessao3_mapa{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+
+
+

@@ -6,13 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
 </head>
 <body>
-    <head>
+    <header>
         <div class="linha">
             <div class="head_sobre_part1">
-                <div class="menu">
-
+                <span id="burger" class="material-symbols-outlined" onclick=click_menu()>
+                    menu
+                </span>
+                <div class="menu" id="itens_menu">
+                    <ul>
+                        <li><a href="html/reserva.html">RESERVAR</a></li>
+                        <li><a href="html/cardapio.html">CARDAPIO</a></li>
+                        <li><a href="html/premios.html">PREMIAÇÕES</a></li>
+                        <li><a href="html/sobre.html">SOBRE</a></li>
+                    </ul>
                 </div>
                 <div class="head_sobre_titulo">
                     SOBRE
@@ -27,30 +37,31 @@
                 </ul>
             </div>
         </div>
-    </head>
-    <section>
-        <div class="sobre_sessao1">
-            <div class="linha">
-                <div class="sobre_sessao1_img">
+    </header>
 
+    <section>
+        <div class="linha">
+            <div class="sobre_sessao1">
+                <div class="sobre_sessao1_img">
+                    <img src="https://cdn.pixabay.com/photo/2015/08/16/12/37/man-890880_960_720.jpg" alt="">
                 </div>
                 <div class="sobre_sessao1_conteudo">
                     <div class="sobre_sessao1_titulo">
-
+                        CHEF Alana
                     </div>
                     <div class="sobre_sessao1_texto">
-
+                        curabitur elit morbi. tempor turpis lacus ipsum litora urna litora feugiat pulvinar sed, scelerisque iaculis accumsan adipiscing netus potenti senectus nisl, mollis erat vehicula quisque a taciti sem etiam. vel quam pulvinar fringilla fusce lobortis vestibulum, lacus praesent ligula ipsum malesuada tristique, tellus sociosqu ut fusce at. 
                     </div>
                 </div>
             </div>
         </div>
         <div class="sobre_sessao2">
             <div class="sobre_sessao2_titulo">
-
+                RESTAURANTE
             </div>
             <span></span>
             <div class="sobre_sessao2_texto">
-
+                curabitur elit morbi. tempor turpis lacus ipsum litora urna litora feugiat pulvinar sed, scelerisque iaculis accumsan adipiscing netus potenti senectus nisl, mollis erat vehicula quisque a taciti sem etiam. vel quam pulvinar fringilla fusce lobortis vestibulum, lacus praesent ligula ipsum malesuada tristique, tellus sociosqu ut fusce at. 
             </div>
             <div class="sobre_sessao2_fotos">
                 <div class="sessao2_fotos1">
@@ -59,12 +70,12 @@
                 </div>
                 <div class="sessao2_fotos2">
                     <div class="fotos_img"></div>
-                    ]<div class="fotos_img"></div>
+                    <div class="fotos_img"></div>
                 </div>
             </div>
         </div>
         <div class="sobre_sessao3">
-            <div class="sobre_sessao3_titulo"></div>
+            <div class="sobre_sessao3_titulo">LOCALIZAÇÃO</div>
             <div class="sobre_sessao3_mapa">
 
             </div>
@@ -73,5 +84,6 @@
     <footer>
         <!--sessao5_part2-->
     </footer>
+    <script src="../js/menu.js"></script>
 </body>
 </html>
