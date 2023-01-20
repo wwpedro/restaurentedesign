@@ -45,9 +45,86 @@ body{
     color: rgb(196, 196, 196);
 }
 
-.menu{
+#toggle {
     display: none;
-    padding: 0;
-    margin: 0;
 }
-
+  
+  
+.hamburger {
+    position: absolute;
+    top: 5em;
+    right: 5%;
+    margin-left: -2em;
+    margin-top: -45px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+    cursor: pointer;
+}
+  
+.hamburger div {
+    position: relative;
+    width: 3em;
+    height: 1px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+  
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ca;
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+}
+.nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+nav {
+    text-align: center;
+    margin-top: 12%;
+}
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+    font-family: "PosteramaThin";
+}
+nav a:hover {
+    color: rgb(192, 192, 192);
+}
+nav a:hover:before {
+    height: 100%;
+}
+  
+#toggle:checked + .hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+}
+#toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+}
+#toggle:checked + .hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+}
+  
+#toggle:checked + .hamburger + .nav {
+    top: 0;
+    transform: scale(1);
+}
