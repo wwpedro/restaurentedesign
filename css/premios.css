@@ -1,0 +1,103 @@
+#header_premio{
+    background-color: rgb(0, 0, 0);
+    height: 550px;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.head_premio_titulo{
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "PosteramaThin";
+    font-size: 145px;
+}
+
+.premio1{
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+.premio1_img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.premio1_img img{
+    border: 1rem solid rgba(255, 255, 255, 0.118);
+}
+.premio1_conteudo{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.premio1_conteudo_titulo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "PosteramaThin";
+    font-size: 4rem;
+}
+
+.premio1_conteudo_texto{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-inline: 3.5rem;
+    margin-top: 2rem;
+}
+
+
+.premio2{
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+.premio2_img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.premio2_img img{
+    border: 1rem solid rgba(255, 255, 255, 0.118);
+}
+.premio2_conteudo{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.premio2_conteudo_titulo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "PosteramaThin";
+    font-size: 4rem;
+}
+
+.premio2_conteudo_texto{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-inline: 3.5rem;
+    margin-top: 2rem;
+}
