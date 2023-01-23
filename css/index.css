@@ -99,6 +99,7 @@ header{
     height: 637px;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 100px;
 }
 
 
@@ -211,6 +212,7 @@ header{
     background-image: url("https://st3.depositphotos.com/9880800/18500/i/600/depositphotos_185007302-stock-photo-view-stylish-empty-cafe-arranged.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
 }
 
 
@@ -257,4 +259,25 @@ header{
 .sessao5_part3{
     padding-top: 50px;
     text-align: center;
+}
+
+
+[data-anime]{
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="down"]{
+    transform: translate3d(0px ,-100px ,0px);
+    transition: 0.5;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-100px ,0px ,0px);
+    transition: 0.5s;
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate(0px,0px,0px);
 }
